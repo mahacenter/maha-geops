@@ -1,0 +1,70 @@
+/*=========================== GENERAL ===========================*/
+
+h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+/*=========================== LAYOUT ===========================*/
+
+#main {
+	margin-top: 40px;
+}
+
+#mission-block, #filter-block {
+	padding: 12px;
+	border: 1px solid #b3b3b3;
+	margin-bottom: 12px;
+	border-radius: 4px;
+}
+
+#filter-block h3 {
+	margin: 12px 0 0 0;
+}
+
+/*=========================== FILTERS ===========================*/
+
+#selectMission, #selectType, #selectContext, #selectPopType {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+#filter-type {
+	max-height: 160px;
+	overflow: auto;
+}
+
+/*=========================== OL ===========================*/
+
+.ol-control button {
+	background-color: rgba(32, 52, 208, 0.97);
+}
+
+.ol-control button:focus, .ol-control button:hover {
+	background-color: rgba(32, 52, 208, 0.97);
+}
+
+.ol-viewport {
+	border-radius: 4px;
+}
+
+/*=========================== MAP ===========================*/
+
+#map-container {
+	width: 100%;
+	height: 400px;
+}
+
+/*=========================== LAYER SWITCHER ===========================*/
+
+.layer-switcher button {
+	    background-color: rgba(32, 52, 208, 0.97);
+}

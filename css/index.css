@@ -1,0 +1,138 @@
+/*=========================== GENERAL ===========================*/ 
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+#main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin: 0;
+  padding: 0;
+}
+
+/*=========================== LAYOUT ===========================*/
+
+#year-block, #mission-block, #gap-block, #restrictions-block {
+  padding: 12px;
+  border: 1px solid #b3b3b3;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+#year-block, #restrictions-block {
+  padding-bottom: 0px;
+}
+
+#gap-block {
+  border: 1px solid black;
+}
+
+#restrictions-block {
+  margin-top: 12px;
+}
+
+/*=========================== OL ===========================*/ 
+
+.ol-control button {
+  background-color: rgba(209,33,33,.5);
+}
+
+.ol-control button:focus, .ol-control button:hover {
+  background-color: rgba(209,33,33,.7);
+}
+
+.ol-viewport {
+  border-radius: 4px;
+}
+
+/*=========================== MAP ===========================*/
+
+#map-container {
+  width: 100%;
+  height: 320px;
+}
+
+/*=========================== FILTERS ===========================*/
+
+#selectYear, #selectEPI, #selectRegionDistrict {
+  margin-top: 12px;
+}
+
+#selectProject, #selectMission {
+  margin-bottom: 12px;
+}
+
+#year-error {
+  margin-top: 8px;
+  visibility: hidden;
+}
+
+/*=========================== GAPS ===========================*/
+
+.dc-chart g.row text {
+  fill: black;
+  text-shadow: white 0.1em 0.1em 0.2em
+}
+
+#gap-formula {
+  margin: 8px 0;
+}
+
+/*=========================== RESTRICTIONS ===========================*/
+
+#restrictions-header {
+  text-align: center;
+}
+
+table#restrictions-table {
+  margin-top: 8px;
+}
+
+table#restrictions-table th, td {
+  text-align: center;
+}
+
+/*=========================== DONUT ===========================*/
+
+#donut {
+  padding: 0 4px;
+}
+
+text.pie-label {
+  fill: black;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/*=========================== INFO CONTROL ===========================*/
+
+#info-control {
+  top: .5em;
+  right: 56px;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+#info-control ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 8px 0 0 0;
+}
+
+/*=========================== DETAILS ===========================*/
+
+.layer-switcher button {
+  background-color: rgba(256, 256, 256, 0.5);
+}

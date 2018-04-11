@@ -1,0 +1,251 @@
+/*=========================== GENERAL ===========================*/
+
+h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+#main {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-group {
+	margin: 0;
+	padding: 0;
+}
+
+/*=========================== LAYOUT ===========================*/
+
+#year-block, #mission-block, #budget-block, #budget-diff-block {
+	padding: 12px;
+	border: 1px solid #b3b3b3;
+	margin-bottom: 12px;
+	border-radius: 4px;
+}
+
+#year-block, #budget-block {
+	padding-bottom: 0px;
+}
+
+#budget-block, #budget-diff-block {
+	border: 1px solid black;
+}
+
+/*=========================== MAP ===========================*/
+
+#map-container {
+	width: 100%;
+	height: 320px;
+}
+
+#map-legend-container {
+	padding: 8px 0;
+}
+
+.round-container {
+	width: 50px;
+	border-top: 1px solid black;
+}
+
+.round {
+	position: relative;
+	right: 12px;
+	bottom: 1px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+/*=========================== FILTERS ===========================*/
+
+#selectYear, #selectProject, #selectMission {
+	margin-top: 12px;
+}
+
+#selectProject, #selectMission {
+	margin-bottom: 12px;
+}
+
+#year-error {
+	margin-top: 8px;
+	visibility: hidden;
+}
+
+/*=========================== TREEMAP ===========================*/
+
+#treemap-container {
+	margin-top: 12px;
+}
+
+#treemap {
+	position: absolute;
+}
+
+.node {
+    border: solid 1px white;
+    line-height: 0.95;
+    overflow: hidden;
+    position: absolute;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+
+.node div {
+   padding: 6px 4%;
+   /*
+   color: white;
+   text-shadow: black 0.1em 0.1em 0.1em;
+	*/	
+}
+
+#treemap-node {
+	margin-top: 8px;
+	margin-bottom: 12px;
+	height: 14px;
+}
+
+/*=========================== HIGHLIGHTERS ===========================*/
+
+#hilighted-numbers-container {
+	margin-top: 16px;
+	text-align: center;
+	visibility: hidden;
+}
+
+.hilighted-numbers {
+	background-color: #e6e6e6;
+	border-radius: 4px;
+	padding: 8px 4px 4px 4px;
+	margin: 8px 0;
+	text-align: center;
+}
+
+.bugdet-amount {
+	font-size: 16px;
+	font-weight: blur;
+}
+
+p.budget-desc {
+	font-size: 12px;
+}
+
+/*=========================== ROW CHART ===========================*/
+
+.dc-chart g.row text {
+	fill: black;
+	text-shadow: white 0.1em 0.1em 0.2em
+}
+
+/*=========================== MAP LEGEND ===========================*/
+
+#map-legend-container {
+	padding: 8px;
+	margin: 20px 0 28px 0;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#map-legend-container h2 {
+	padding: 0 8px;
+	display: inline-block;
+	position: relative;
+	bottom: 24px;
+	background-color: #ffffff;
+	color: #d12121;
+}
+
+#map-legend-container p {
+	margin: -10px 0 0 0;
+	font-weight: bold;
+}
+
+.legend-item-container {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.circle-container {
+	height: 80px;
+}
+
+.number-container {
+	text-align: center;
+}
+
+.number {
+	font-size: 12px;
+}
+
+.circle {
+	margin: auto;
+	border-radius: 50%;
+	background-color: rgb(189, 189, 189);
+	border: 1px solid white;
+}
+
+#circle-container1 {
+	padding-top: 36px;
+}
+
+#circle-container2 {
+	padding-top: 25px;
+}
+
+#circle-container3 {
+	padding-top: 15px;
+}
+
+#circle-container4 {
+	padding-top: 5px;
+}
+
+#circle1 {
+	width: 12px;
+	height: 12px;
+}
+
+#circle2 {
+	width: 30px;
+	height: 30px;
+}
+
+#circle3 {
+	width: 50px;
+	height: 50px;
+}
+
+#circle4 {
+	width: 70px;
+	height: 70px;
+}
+
+
+/*=========================== OL ===========================*/
+
+.ol-control button {
+	background-color: rgba(209,33,33,.5);
+}
+
+.ol-control button:focus, .ol-control button:hover {
+	background-color: rgba(209,33,33,.7);
+}
+
+.ol-viewport {
+	border-radius: 4px;
+}
+
+/*=========================== DETAILS ===========================*/
+
+.layer-switcher button {
+  background-color: rgba(256, 256, 256, 0.5);
+}
